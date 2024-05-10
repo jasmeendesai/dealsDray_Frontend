@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    padding:  1% 30%;
+
+}
+
+.icon{
+    position: fixed;
+    top: 80px;
+    right: 20px;
+}
+
+form{
+    background-color: var(--bg);
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.item input,
+.item span,
+.button{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 2px 10px;
+}
+
+.button{
+    width: 150px;
+    font-weight: 600;
+    color: var(--text);
+    background-color: var(--button);
+    margin: 0 auto;
+}

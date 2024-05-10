@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --bgSoft : rgba(206, 233, 239, 0.548);
+  --text : rgb(108, 106, 106);
+  --bg : rgb(204, 231, 236);
+  --textSoft : #7a7979;
+  --border : rgba(128, 128, 128, 0.359);
+  --button : rgba(55, 255, 245, 0.858);
+}
+
+body{
+  background-color: var(--bgSoft);
+  color: var(--text);
+}
